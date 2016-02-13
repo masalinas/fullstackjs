@@ -35,5 +35,9 @@
   "Product": {
     "dataSource": "fullstackjs",
     "public": true
+  },
+  "Client": {
+    "dataSource": "fullstackjs",
+    "public": true
   }
 }
