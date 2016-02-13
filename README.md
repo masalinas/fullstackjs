@@ -2,6 +2,12 @@
 
 A Full Stack Javascript Architecture
 
+# Infraestructure Techonologies:
+
+- NodeJS
+- ExpressJS
+- MongoDb
+
 # Backend Techonologies:
 
 - Loopback
