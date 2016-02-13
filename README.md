@@ -23,3 +23,13 @@ A Full Stack Javascript Architecture
 - Angular Animate
 - Angular Bootstrap
 - Bootstrap
+
+# Installation:
+
+Execute npm to install node packages:
+
+  npm installl
+
+Execute bower to install ui packages
+
+  bower install
