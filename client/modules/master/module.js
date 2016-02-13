@@ -6,26 +6,37 @@ define(['angular',
 
   couchPotato.configureApp(module);
 
-  module.config(function($stateProvider, $couchPotatoProvider, $urlRouterProvider) {
+  module.config(function($stateProvider, $couchPotatoProvider) {
     $stateProvider
-      .state('app.modules.master', {
-        abstract: true,
+      .state('app.product', {
+        url: '/product',
         data: {
-          title: 'Master Elements'
-        }
-      })
-      .state('app.modules.master.product', {
-        url: '/master/product',
-        data: {
-          title: 'Product Master'
+          title: 'Product Master View'
         },
         views: {
-          "content@app": {
+          "root": {
             templateUrl: 'modules/master/views/product-master.html',
             controller: 'ProductMasterCtrl',
             resolve: {
               deps: $couchPotatoProvider.resolveDependencies([
                 'modules/master/controllers/ProductMasterCtrl'
+              ])
+            }
+          }
+        }
+      })
+      .state('app.client', {
+        url: '/client',
+        data: {
+          title: 'Client Master View'
+        },
+        views: {
+          "root": {
+            templateUrl: 'modules/master/views/client-master.html',
+            controller: 'ClientMasterCtrl',
+            resolve: {
+              deps: $couchPotatoProvider.resolveDependencies([
+                'modules/master/controllers/ClientMasterCtrl'
               ])
             }
           }

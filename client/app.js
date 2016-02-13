@@ -15,7 +15,9 @@ define([
 
     // App
     'app.modules.layout',
-    'app.modules.master'
+    'app.modules.dashboard',
+    'app.modules.master',
+    'app.modules.stock'
   ]);
 
   couchPotato.configureApp(app);

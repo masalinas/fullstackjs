@@ -1,6 +1,6 @@
 # Full Stack Javascript
 
-A Full Stack Javascript Architecture
+A Full Stack Lazy Modular Javascript Architecture
 
 # Infraestructure Techonologies:
 
@@ -27,9 +27,10 @@ A Full Stack Javascript Architecture
 # Installation:
 
 Execute npm to install node packages:
-
-  npm installl
-
-Execute bower to install ui packages
-
+```
+  npm install
+```shell
+Execute bower to install ui packages:
+```
   bower install
+```
