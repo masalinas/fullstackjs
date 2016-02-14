@@ -1,4 +1,4 @@
-define(['modules/layout/module'], function (module) {
+define(['modules/layout/module', 'dark-velvet'], function (module) {
   "use strict";
 
   module.registerController('LayoutCtrl', ['$scope', '$state', '$log', function ($scope, $state, $log) {

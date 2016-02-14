@@ -1,9 +1,48 @@
-<div id="content">
-  <button id="dashboard" ui-sref="app.dashboard">Dashboard</button>
-  <button id="product" ui-sref="app.product">Product</button>
-  <button id="client" ui-sref="app.client">Client</button>
-  <button id="stock" ui-sref="app.stock">Stock</button>
-
-  <!-- ui-view layout container -->
-  <div data-ui-view="root"></div>
+<div class="header">
+  <div class="row">
+    <div class="col-lg-8">
+      <!-- Main Menu -->
+      <div class="dropdown-wrap boxed-velvet">
+        <ul class="dropdown inner clearfix">
+          <li class="menu-level-0 first">
+            <a ui-sref="app.dashboard"><i class="glyphicon glyphicon-home"></i><span>Dashboard</span></a>
+          </li>
+          <li class="menu-level-0 parent"><a href="javascript:void(0)"><span>Master</span></a>
+            <ul class="submenu-1">
+              <li class="menu-level-1"><a ui-sref="app.product">Product</a></li>
+              <li class="menu-level-1"><a ui-sref="app.client">Client</a></li>
+            </ul>
+          </li>
+          <li class="menu-level-0 last"><a href="javascript:void(0)"><span>Warehouse</span></a>
+            <ul class="submenu-1">
+              <li class="menu-level-1"><a ui-sref="app.stock">Stock Manager</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/ Main Menu -->
+    </div>
+    <div class="col-lg-4">
+      <!-- User Menu -->
+      <div class="dropdown-wrap boxed-velvet pull-right">
+        <ul class="dropdown inner clearfix">
+          <li class="menu-level-0 first"><a href="javascript:void(0)"><span>Settings</span></a>
+            <ul class="submenu-1">
+              <li class="menu-level-1"><a href="javascript:void(0)">Privacy Policy</a></li>
+              <li class="menu-level-1"><a href="javascript:void(0)">Copyright</a></li>
+              <li class="menu-level-1"><a href="javascript:void(0)">Terms of Service</a></li>
+            </ul>
+          </li>
+          <li class="menu-level-0 last">
+            <a href="javascript:void(0)"><span>Log Out</span></a>
+          </li>
+        </ul>
+      </div>
+      <!--/ User Menu -->
+    </div>
+  </div>
 </div>
+<!-- Main Content -->
+<div data-ui-view="root" data-autoscroll="false"></div>
+<!-- Main Content -->
+

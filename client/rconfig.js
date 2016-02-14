@@ -10,7 +10,9 @@ var require = {
     'angular-bootstrap': './bower_components/angular-bootstrap/ui-bootstrap-tpls.min',
     'angular-couch-potato': './bower_components/angular-couch-potato/dist/angular-couch-potato',
 
-    'modules-includes': 'includes'
+    'modules-includes': 'includes',
+
+    'dark-velvet': './js/darkvelvet'
   },
   shim: {
     'angular': {'exports': 'angular', deps: ['jquery']},
@@ -19,7 +21,9 @@ var require = {
     'angular-ui-router': { deps: ['angular'] },
     'angular-couch-potato': { deps: ['angular'] },
 
-    'modules-includes': { deps: ['angular']}
+    'modules-includes': { deps: ['angular']},
+
+    'dark-velvet': {deps: ['jquery']}
   },
   priority: [
     'jquery',
