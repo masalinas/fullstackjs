@@ -236,11 +236,9 @@ jQuery(document).ready(function() {
   });
 
   // Crop Images in Image Slider
-
   // adds .naturalWidth() and .naturalHeight() methods to jQuery for retrieving a normalized naturalWidth and naturalHeight.
   (function($){
-      var
-          props = ['Width', 'Height'],
+      var props = ['Width', 'Height'],
           prop;
 
       while (prop = props.pop()) {

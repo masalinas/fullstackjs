@@ -9,6 +9,8 @@ var require = {
     'angular-ui-router': './bower_components/angular-ui-router/release/angular-ui-router.min',
     'angular-bootstrap': './bower_components/angular-bootstrap/ui-bootstrap-tpls.min',
     'angular-couch-potato': './bower_components/angular-couch-potato/dist/angular-couch-potato',
+    'jquery-datatables': './bower_components/datatables/media/js/jquery.dataTables.min',
+    'datatables-bootstrap': './bower_components/datatables/media/js/dataTables.bootstrap.min',
 
     'modules-includes': 'includes',
 
@@ -20,6 +22,8 @@ var require = {
     'angular-bootstrap': { deps: ['angular'] },
     'angular-ui-router': { deps: ['angular'] },
     'angular-couch-potato': { deps: ['angular'] },
+    'jquery-datatables': { deps: ['jquery'] },
+    'datatables-bootstrap': { deps: ['jquery-datatables'] },
 
     'modules-includes': { deps: ['angular']},
 
