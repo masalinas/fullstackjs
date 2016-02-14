@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
   $(window).resize(function() {
     screenHeight = $(window).height();
     $(".body_wrap").css("min-height", screenHeight);
-    $(".view").css("min-height", screenHeight);
+    $(".view").css("min-height", screenHeight); /*resize all view modules*/
   });
 
   // Remove outline in IE
