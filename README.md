@@ -1,6 +1,6 @@
 # Full Stack Javascript
 
-A Full Stack Lazy Modular Javascript Architecture
+A Full Stack Lazy Modular Javascript Architecture Template
 
 # Infraestructure Techonologies:
 
