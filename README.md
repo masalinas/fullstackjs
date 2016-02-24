@@ -30,7 +30,7 @@ A Full Stack Lazy Modular Javascript Architecture Template
 Execute npm to install node packages:
 ```
   npm install
-```shell
+```
 Execute bower to install ui packages:
 ```
   bower install
